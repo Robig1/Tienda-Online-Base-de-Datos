@@ -17,6 +17,7 @@ a{
 }
 
 h1{
+    color: white;
     padding-top: 3em;
     text-align: center;
     transition: transform 0.33s ease;
@@ -27,6 +28,7 @@ h1:hover{
     color: yellow;
     transform: scale(1.03);
 }
+
 
 .menu{
     display: flex;
@@ -105,11 +107,6 @@ footer {
     margin: 0 10px;
     text-decoration: none;
 }
-
-.miniaturas img{
-    height: 333px;
-}
-
 main {
     max-width: 888px;
     margin: 3em auto;
@@ -117,13 +114,14 @@ main {
     padding-top: 3%;
 }
 
-.miniaturas {
+.miniaturas{
     display: flex;
     position: relative;
     text-align: center;
     justify-content: space-between;
     margin-left: 13%;
     margin-right: 13%;
+    color: white;
 }
 
 .miniaturas img{

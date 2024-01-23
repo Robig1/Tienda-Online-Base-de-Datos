@@ -117,11 +117,14 @@ main {
     padding-top: 3%;
 }
 
-.miniaturas {
-    color: white;
+.miniaturas{
     display: flex;
+    position: relative;
+    text-align: center;
     justify-content: space-between;
-    align-items: center;
+    margin-left: 13%;
+    margin-right: 13%;
+    color: white;
 }
 
 .miniaturas a :hover{

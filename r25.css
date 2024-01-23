@@ -100,13 +100,14 @@ footer {
     text-decoration: none;
 }
 
-.miniaturas {
+.miniaturas{
     display: flex;
     position: relative;
     text-align: center;
     justify-content: space-between;
     margin-left: 13%;
     margin-right: 13%;
+    color: white;
 }
 
 .miniaturas img{
