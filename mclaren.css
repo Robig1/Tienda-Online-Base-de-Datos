@@ -1,0 +1,158 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fondoarriba{
+    background-image: url('imagenes/banner_mclaren.jpg');
+    background-size:cover;
+    height: 569px;
+    width: 100%;
+    margin-top: -1.33%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    display: flex;
+    height: 3em;
+    background-color: black;
+    position: sticky;
+    color: white;
+    top: 0px;
+    z-index: 9;
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.menu a:hover{
+    color: yellow;
+}
+
+.miniaturas :hover{
+    color: yellow;
+}
+
+.miniaturas {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.miniaturas img{
+    margin-top: 9em;
+    margin: 33px;
+    width: 333px;
+    height: auto;
+    transition: transform 0.33s ease;
+    border: 3px solid grey;
+    border-radius: 13px;
+    -webkit-box-shadow: 0px 0px 33px 14px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 0px 33px 14px rgba(0,0,0,0.73);
+    box-shadow: 0px 0px 33px 14px rgba(0,0,0,0.73);
+}
+
+.miniaturas img:hover {
+    transform: scale(1.03);
+}
+
+.miniaturas h2{
+    padding-top: 3em;
+    color: white;
+    font-size: 133%;
+    transition: transform 0.33s ease;
+}
+
+h2:hover{
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.03);
+}
+
+body{
+    background-color: rgb(0, 36, 32);
+    margin: 0%;
+}
+
+.p {
+    text-align: center;
+}
+
+p:hover{
+    color: green;
+}
+
+h1{
+    padding-top: 3em;
+    text-align: center;
+    transition: transform 0.33s ease;
+}
+
+h1:hover{
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.03);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 22%;
+}
+
+.footer_izquierda {
+    width: 30%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes_sociales {
+    width: 30%;
+    text-align: center;
+}
+
+.final iframe{
+    height: 333px;
+    width: 555px;
+    margin-right: 13em;
+}
+
+.redes_sociales a {
+    display: inline-block;
+    margin: 5px;
+}
+
+.redes_sociales img {
+    width: 30px;
+    height: 30px; 
+}
+
+.nav_derecha {
+    background-color: rgb(0, 36, 32);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav_derecha a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
