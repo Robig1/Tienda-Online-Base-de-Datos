@@ -76,13 +76,12 @@ a :hover{
 }
 
 h2:hover{
-    text-decoration: underline;
     color: yellow;
     transform: scale(1.03);
 }
 
 body {
-    background-color: rgb(0, 36, 32);
+    background-color: rgba(0,0,52,255);
     margin: 0%;
 }
 
@@ -101,8 +100,6 @@ h1{
 }
 
 h1:hover{
-    text-decoration: underline;
-    color: yellow;
     transform: scale(1.03);
 }
 
@@ -124,8 +121,21 @@ footer {
 }
 
 .redes_sociales {
-    width: 30%;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3em;
+}
+
+.redes_sociales a {
+    color: white;
+    text-decoration: none;
+    margin: 13px;
+}
+
+.redes_sociales i {
+    font-size: 33px;
 }
 
 .final iframe{
@@ -134,18 +144,8 @@ footer {
     margin-right: 13em;
 }
 
-.redes_sociales a {
-    display: inline-block;
-    margin: 5px;
-}
-
-.redes_sociales img {
-    width: 30px;
-    height: 30px; 
-}
-
 .nav_derecha {
-    background-color: rgb(0, 36, 32);
+    background-color: rgba(0,0,52,255);
     color: white;
     padding: 10px;
     text-align: center;
@@ -155,4 +155,8 @@ footer {
     color: white;
     margin: 0 10px;
     text-decoration: none;
+}
+
+.nav_derecha a:hover{
+    color: yellow;
 }

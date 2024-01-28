@@ -36,11 +36,11 @@ a{
 }
 
 .menu a:hover{
-    color: yellow;
+    color: red;
 }
 
 .miniaturas :hover{
-    color: yellow;
+    color: black;
 }
 
 .miniaturas h2{
@@ -51,13 +51,11 @@ a{
 }
 
 h2:hover{
-    text-decoration: underline;
-    color: yellow;
     transform: scale(1.03);
 }
 
 body{
-    background-color: rgb(0, 36, 32);
+    background-color: red;
     margin: 0%;
 }
 
@@ -76,8 +74,6 @@ h1{
 }
 
 h1:hover{
-    text-decoration: underline;
-    color: yellow;
     transform: scale(1.03);
 }
 
@@ -98,38 +94,45 @@ footer {
     flex-direction: column;
 }
 
-.redes_sociales {
-    width: 30%;
-    text-align: center;
-}
-
 .final iframe{
     height: 333px;
     width: 555px;
     margin-right: 13em;
 }
 
-.redes_sociales a {
-    display: inline-block;
-    margin: 5px;
+.redes_sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3em;
 }
 
-.redes_sociales img {
-    width: 30px;
-    height: 30px; 
+.redes_sociales a {
+    color: white;
+    text-decoration: none;
+    margin: 13px;
+}
+
+.redes_sociales i {
+    font-size: 33px;
 }
 
 .nav_derecha {
-    background-color: rgb(0, 36, 32);
+    background-color: red;
     color: white;
     padding: 10px;
     text-align: center;
 }
 
 .nav_derecha a {
-    color: white;
+    color: black;
     margin: 0 10px;
     text-decoration: none;
+}
+
+.nav_derecha a:hover{
+    color: white;
 }
 
 .miniaturas {

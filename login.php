@@ -11,13 +11,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['user_id'] = $row['id'];
         $_SESSION['user_nombre'] = $row['nombre'];
         if ($row['rol'] == 'administrador') {
-            header("Location: iniciar.php");
+            header("Location: index.html");
         } else {
-            header("Location: iniciar.php");
+            header("Location: menu.php");
         }
         exit();
     } else {
-        $error_message = "Usuario y/o contraseña incorrectos.";
+        $error_message = "Uy uy uy, hubo un error en al introducir tus datos, inténtalo de nuevo";
     }
     $conn->close();
 }
@@ -41,7 +41,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <a href="ferrari.html">Ferrari</a>
             <a href="alpine.html">Alpine</a>
             <a href="astonmartin.html">Aston Martin</a>
-            <a href="carrito.html">Cesta</a>
+            <a href="carrito.php
+            ">Cesta</a>
             <a href="login.php">Incia Sesión</a>
         </div>
         <div class="fondoarriba">
@@ -59,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <button type="submit">Iniciar Sesión</button>
         </form>
-        <p>¿No tienes una cuenta?<a href="registrar.php">Regístrate aquí</a></p>
+        <p>¿No tienes una cuenta? <a href="registrar.php"> Regístrate aquí</a></p>
     </section>
 </body>
         <footer>

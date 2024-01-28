@@ -4,7 +4,7 @@ html{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -19,11 +19,10 @@ h1{
     padding-top: 3em;
     text-align: center;
     transition: transform 0.33s ease;
+    color: white;
 }
 
 h1:hover{
-    text-decoration: underline;
-    color: yellow;
     transform: scale(1.03);
 }
 .menu{
@@ -68,25 +67,28 @@ footer {
     flex-direction: column;
 }
 
-.redes_sociales {
-    width: 30%;
-    text-align: center;
-}
-
 .final iframe{
     height: 333px;
     width: 555px;
     margin-right: 13em;
 }
 
-.redes_sociales a {
-    display: inline-block;
-    margin: 5px;
+.redes_sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3em;
 }
 
-.redes_sociales img {
-    width: 30px;
-    height: 30px; 
+.redes_sociales a {
+    color: white;
+    text-decoration: none;
+    margin: 13px;
+}
+
+.redes_sociales i {
+    font-size: 33px;
 }
 
 .nav_derecha {
@@ -136,6 +138,7 @@ button:hover {
 }
 
 p{
+    text-decoration: underline;
     margin-top: 13px;
     font-size: 13px;
     color: black;

@@ -38,7 +38,7 @@
 
             <button type="submit">Registrarse</button>
         </form>
-        <p>¿Ya tienes una cuenta? <a href="login.php">Inicia sesión aquí</a></p>
+        <p>¿Ya tienes una cuenta? <a href="login.php"> Inicia sesión aquí</a></p>
     </section>
 </body>
         <footer>

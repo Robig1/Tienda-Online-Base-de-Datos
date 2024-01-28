@@ -4,7 +4,7 @@ include 'enlace.php';
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$sql_check_user = "SELECT * FROM usuarios WHERE usuario = ?";
+$sql_check_user = "SELECT * FROM pedidos WHERE id_usuario = ?";
 $stmt_check_user = $conn->prepare($sql_check_user);
 $stmt_check_user->bind_param("s", $email);
 $stmt_check_user->execute();
@@ -23,7 +23,6 @@ if ($result_check_user->num_rows > 0) {
         $_SESSION['is_admin'] = $user['es_administrador'];
 
         header("Location: menu.php");
-        
         exit();
     } else {
         echo "Uy uy uy, hubo un error en al introducir tus datos, inténtalo de nuevo";

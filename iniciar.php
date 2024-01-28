@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         exit();
     } else {
-        $error_message = "Usuario y/o contraseña incorrectos.";
+        $error_message = "Uy uy uy, hubo un error en al introducir tus datos, inténtalo de nuevo";
     }
 
     $conn->close();
